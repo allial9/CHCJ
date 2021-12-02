@@ -2,27 +2,27 @@
     box-sizing: border-box;
 }
 
-.chicken span {
-    background-color: hotpink;
-    border: 1px black solid;
-}
-
-.beef span {
-    background-color: red;
-    color: white;
-    border: 1px black solid;
-
-}
-
-.sushi span {
-    background-color: yellow;
-    border: 1px black solid;
-
-}
 
 #chicken, #beef, #sushi {
 
     background-color: gray;
 }
 
+.chicken span {
+    background-color: hotpink;
+    border: 1px solid black;
+}
+
+.beef span {
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+
+}
+
+.sushi span {
+    background-color: yellow;
+    border: 1px solid black;
+
+}
 
