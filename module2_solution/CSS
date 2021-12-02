@@ -1,1 +1,8 @@
+* {
+    box-sizing: border-box;
+}
 
+#chicken, #beef, #sushi {
+
+    background-color: gray;
+}
