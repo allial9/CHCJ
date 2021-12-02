@@ -9,4 +9,18 @@
 
 .chicken span {
     background-color: hotpink;
+    border: 1px black solid;
+}
+
+.beef span {
+    background-color: red;
+    color: white;
+    border: 1px black solid;
+
+}
+
+.sushi span {
+    background-color: yellow;
+    border: 1px black solid;
+
 }
