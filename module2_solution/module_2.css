@@ -79,7 +79,7 @@ h1 { /* ICE 001 */
 }
 
 p {
-    border: black solid 2 px;
+    border: 1px solid black;
     background-color: grey;
     padding:45px 10px 10px 10px;
     margin-right: 10px;
