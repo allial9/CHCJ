@@ -74,7 +74,7 @@ h1 { /* ICE 001 */
 
 .container {
     position:relative;
-    border 2px solid black;
+    border: 2px solid black;
     /* removed margin from here and placed on p tag */
 }
 
