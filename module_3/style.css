@@ -1,4 +1,99 @@
+/*Large devices only*/
 
+@media (min-width: 1200px ) {
+    
+}
+
+/*Medium devices only*/
+
+@media (min-width: 992px ) and (max-width: 1199px ) {
+/* Header */
+
+#logo-img {
+
+    width: 100px;
+    height: 100px ;
+    margin: 5px 5px 5px 0;
+
+}
+
+}
+/*Small devices only*/
+
+@media (min-width: 768px ) and (max-width: 991px ){
+
+    .navbar-brand h1 {
+        padding-top: 10px;
+        font-size: 3vw;
+    }
+    
+}
+
+
+/*Extra Small devices only*/
+
+@media (max-width: 767px ) {
+  
+    #logo-img {
+
+        visibility: hidden;
+    
+    }
+    
+    .navbar-brand  {
+        padding-top: 10px;
+        height: 80px ;
+    }
+    
+    .navbar-brand h1 {
+        padding-top: 10px;
+        font-size: 4vw;
+        float: left;
+    }
+
+    .navbar-brand p span {
+        padding-top: 10px;
+        font-size: 3vw;
+        float: left;
+    }
+
+    #kosher {
+        padding-top: 10px; 
+        font-size: 3vw;
+        /* width: 3vw; */
+        float: left !important;
+    }
+
+    #phone {
+
+        visibility: hidden;
+    }
+
+    /* .navbar-brand p span {
+        font-size: .6em;
+        margin-top: 12px;
+    }
+
+
+    .navbar-brand p img {
+        height: 20px;
+
+    } */
+}
+
+
+#navbar {
+
+    margin-bottom: 30px;
+}
+
+
+#main-content {
+
+    /* took this out because its adding extra padding to the image */
+    /* box-shadow: 0 0 50px #3F0C1F; */
+    /* border: 2px solid #3F0C1F; */
+}
 
 body {
     font-size: 16px;
@@ -8,6 +103,13 @@ body {
     min-height: 100%;
     
 }
+
+.navbar-dark {
+    background-color: burlywood;
+
+}
+
+
 
 #header-nav {
     background-color: burlywood;
@@ -19,11 +121,10 @@ body {
 }
 
 #logo-img {
-    background: url('https://raw.githubusercontent.com/allial9/CHCJ/gh-pages/Archency%20Word%20Form.jpg') no-repeat;
 
-    width: 50px;
-    height: 50px ;
-    margin: 10px 15px 10px 0;
+    width: 125px;
+    height: 125px;
+    margin: 0;
 }
 
 .navbar-brand {
@@ -38,7 +139,7 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     text-shadow: 1px 1px 1px #222;
-    margin-top: 0;
+    margin-top: 30px;
     margin-bottom: 0;
     line-height: .75;
     
@@ -52,7 +153,7 @@ body {
 .navbar-brand p { /* Kosher cert */
     color: #000;
     text-transform: uppercase;
-    font-size: .7em;
+    font-size: .1em;
     margin-top: 15px;
 
 }
@@ -60,6 +161,31 @@ body {
 .navbar-brand p span { /*Small logo */
     vertical-align: middle;
     
+}
+
+#kosher { /*Small logo */
+    
+    width: 40px !important;
+    
+}
+
+
+#navmenu {
+    margin-top: 10px;
+}
+
+#navmenu a {
+    color: #951c49
+}
+
+#navmenu a:hover {
+
+    background: #e7e7e7
+
+}
+
+#navmenu a span {
+    font-size: 1.5em;
 }
 
 #nav-list {
@@ -80,6 +206,10 @@ body {
     font-size: 1.8em;
 }
 
+.navbar-nav {
+    text-align: center;
+}
+
 #phone {
     margin-top: 5px;
 }
@@ -87,6 +217,7 @@ body {
 #phone a { /* Phone number */
     text-align: right;
     padding-bottom: 0;
+    font-size: .8em;
 }
 
 #phone div { /* We Deliver */
@@ -96,8 +227,37 @@ body {
     padding-right: 15px;
 }
 
+
+#phone span {
+
+    text-decoration: none;
+}
+
+.navbar button.navbar-toggler {
+
+/* styles the outer border of the toggler */
+    border: 1px solid #61122f
+}
+
+.navbar-toggler-icon {
+
+
+/* styles the 3 bars */
+
+}
+
+.navbar button.navbar-toggler {
+
+    clear: both;
+    margin-top: -30px;
+}
+
+
+
+
+
 p {
     
-    font-size: 20px;
+    font-size: 17px;
 }
 
