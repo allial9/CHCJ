@@ -17,14 +17,15 @@
 
     <body>
 
-        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <nav class="navbar navbar-expand-md navbar-dark" id="navbar">
+            <!-- removed bg-dark class and style.css colors applied. -->
             <div class="container">
                 <!-- you can add the div class nav brand to follow instructions but it looks better w/o it -->
                 <div class="nav-brand">
-                <a href="index2.html" class="navbar-brand"><h1>Archency Foodie Spot</h1></a>
+                <a href="index2.html" class="navbar-brand"><img id="logo-img" class="img-fluid float-start" src="Images/pandacamo.png"><h1>Archency Foodie Spot</h1></a>
                     <p>
-                        <img width="40px"  src="Images/Kosher certification small.png" alt="Kosher certification">
-                        <span>Kosher Certified</span>
+                        <img id="Kosher" src="Images/Kosher certification small.png" alt="Kosher certification">
+                        <span id="kid">Kosher Certified</span>
                     </p>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=#navmenu>
@@ -35,15 +36,15 @@
                     <!-- ms-auto margin start auto -->
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <span><img width="50px" src="Images/Dining48.png"></img></span><a href="#menu" class="nav-link">Menu</a>
+                            <span><img height="40px"src="Images/Dining48.png"></img></span><a href="#menu" class="nav-link">Menu</a>
                         </li>
                         <li class="nav-item">
-                            <span><img width="50px"src="Images/icons50.png"></img></span><a href="#about" class="nav-link">About</a>
+                            <span><img height="40px" src="Images/icons50.png"></img></span><a href="#about" class="nav-link">About</a>
                         </li>                        
                         <li class="nav-item">
-                            <span><img width="50px" src="Images/gift50.png"></img></span><a href="#awards" class="nav-link">Awards</a>
+                            <span><img height="40px" src="Images/gift50.png"></img></span><a href="#awards" class="nav-link">Awards</a>
                         </li> 
-                        <li id="phone" class="sm">
+                        <li id="phone" class="" >
                             <!-- tel will trigger phone program on the device to call the provided phone number -->
                           <a href="tel:410-602-5008">
                             <span>410-602-5008</span></a><div>* We Deliver</div>
@@ -53,7 +54,14 @@
             </div>
         </nav>
 
+        <div class="container" id="main-content">
+            <div class="">
+                <img src="Images/rest1200.jpg" alt="Picture of restaurant" 
+                class="img-fluid mx-auto d-block">
+                <!-- added mx-auto and d-block which centered the photo -->
+            </div>
 
+        </div>
 
 
 
