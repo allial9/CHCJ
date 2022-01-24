@@ -16,8 +16,8 @@
 
 #chicken, #beef, #sushi {
 
-    height: 700px;
-    width: 400px;
+    /*height: 700px;
+    width: 400px;*/
     padding: 20px;
     margin: 15px;
     overflow: scroll;
