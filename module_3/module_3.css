@@ -1,0 +1,28 @@
+#headtitle {
+    text-decoration: none;
+    color: #fff;
+    font-size: 36px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar {
+    margin-bottom: 25px;
+}
+
+#heading {
+    margin-bottom: 25px;
+}
+
+#chicken, #beef, #sushi {
+
+    height: 700px;
+    width: 400px;
+    padding: 20px;
+    margin: 15px;
+    overflow: scroll;
+    background-color: #808080;
+} 
+
+
+
